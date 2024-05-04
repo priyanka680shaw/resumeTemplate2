@@ -98,16 +98,16 @@ export const RightSideBar = () => {
       </div>
       <div style={{ width: "100%", height: "20%", display: "flex", justifyContent: "space-between" }}>
         <div style={iconsStyle}>
-          <MdWork style={iconWidth}/>
+          <MdWork className='text-7xl text-cyan-500'/>
         </div>
         <div style={iconsStyle}>
-          <TfiAnnouncement style={iconWidth}/>
+          <TfiAnnouncement className='text-7xl text-cyan-500'/>
         </div>
         <div style={iconsStyle}>
-          <TiDeviceLaptop style={iconWidth}/>
+          <TiDeviceLaptop className='text-7xl text-cyan-500'/>
         </div>
         <div style={iconsStyle}>
-          <FaRegLightbulb style={iconWidth}/>
+          <FaRegLightbulb className='text-7xl text-cyan-500' />
         </div>
       </div>
     </div>
